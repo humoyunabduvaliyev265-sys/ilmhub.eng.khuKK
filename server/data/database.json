@@ -1,0 +1,142 @@
+{
+  "users": [
+    {
+      "id": "usr-1790153628876-2b00ee",
+      "username": "teststudent",
+      "passwordHash": "1ff522b13d037b0cdb64523c4840bd423e3c2bce552bcc031b7e76aae7145ddebd297aec2dac7ab563d297a5faa9c4edabcefde53968948114243024aac21d83",
+      "salt": "e73e56864c81cad3e81638197dde85b9",
+      "tempPasswordDisplay": "Test12345",
+      "fullName": "Test Student",
+      "email": "teststudent@ilmhub.uz",
+      "role": "student",
+      "isActive": true,
+      "createdAt": "2026-09-23T08:53:48.877Z",
+      "level": "B1",
+      "progress": {
+        "xp": 0,
+        "streakDays": 1,
+        "lastActiveDate": "2026-09-23",
+        "completedLessons": [],
+        "masteredVocab": [],
+        "reviewVocab": [],
+        "favoriteVocab": [],
+        "testScores": [],
+        "unlockedAchievements": [],
+        "currentLevel": "B1",
+        "dailyGoalXp": 50,
+        "todayXp": 0
+      },
+      "notes": "Initial test student account",
+      "lastLoginAt": "2026-09-23T08:53:48.924Z"
+    },
+    {
+      "id": "usr-admin-1",
+      "username": "ADMIN",
+      "fullName": "Khumoyun Abduvaliyev (ADMIN)",
+      "email": "admin@ilmhub.uz",
+      "role": "admin",
+      "isActive": true,
+      "createdAt": "2026-01-15T10:00:00Z",
+      "lastLoginAt": "2026-09-23T08:53:48.819Z",
+      "level": "C2",
+      "progress": {
+        "xp": 850,
+        "streakDays": 14,
+        "lastActiveDate": "2026-09-23",
+        "completedLessons": [
+          "l-a1-1-1"
+        ],
+        "masteredVocab": [
+          "v-a1-1",
+          "v-a1-2"
+        ],
+        "reviewVocab": [
+          "v-a1-3"
+        ],
+        "favoriteVocab": [
+          "v-a1-1"
+        ],
+        "testScores": [],
+        "unlockedAchievements": [
+          "ach-first-step",
+          "ach-vocab-5"
+        ],
+        "currentLevel": "C2",
+        "dailyGoalXp": 50,
+        "todayXp": 50
+      },
+      "notes": "Chief Administrator & Lead Instructor",
+      "passwordHash": "8d47f733dfdaf0f5e1a3cadb05ecdf321702093f3aa508e59aa4f6d8c467ca910fcc8cd4c8b9bd9433ad1c649d66ff4da703c89476c47a14d4fd5e2414aa3dce",
+      "salt": "3138b6696f0f55e750fc053816444081",
+      "tempPasswordDisplay": "KHUMOYUN2026"
+    },
+    {
+      "id": "usr-admin-1",
+      "username": "humoyun_fjx",
+      "fullName": "Khumoyun Abduvaliyev",
+      "email": "humoyunabduvaliyev265@gmail.com",
+      "role": "admin",
+      "isActive": true,
+      "createdAt": "2026-01-15T10:00:00Z",
+      "lastLoginAt": "2026-09-23T08:25:22.550Z",
+      "level": "C2",
+      "progress": {
+        "xp": 850,
+        "streakDays": 14,
+        "lastActiveDate": "2026-09-23",
+        "completedLessons": [
+          "l-a1-1-1"
+        ],
+        "masteredVocab": [
+          "v-a1-1",
+          "v-a1-2"
+        ],
+        "reviewVocab": [
+          "v-a1-3"
+        ],
+        "favoriteVocab": [
+          "v-a1-1"
+        ],
+        "testScores": [],
+        "unlockedAchievements": [
+          "ach-first-step",
+          "ach-vocab-5"
+        ],
+        "currentLevel": "C2",
+        "dailyGoalXp": 50,
+        "todayXp": 50
+      },
+      "notes": "Platform Administrator & Lead Instructor",
+      "passwordHash": "e1fbbf92e22f942d4748c220b3f2cb8f872b899c625d79fd53d067f4340f0131891e5181ed5a66e0142b7be32aec9543baafdb69bf9907e8ae744c396f83333f",
+      "salt": "dbe3bb9a75217950127bb842c6043aaf",
+      "tempPasswordDisplay": "admin_fjx_secure"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "ilm_a09f7895225dfd0f57f1790ea5fef662606a3fd68016c9f9ae0d5c2829bd8ca9",
+      "userId": "usr-admin-1",
+      "createdAt": "2026-09-23T08:53:39.024Z",
+      "expiresAt": "2026-10-23T08:53:39.024Z"
+    },
+    {
+      "token": "ilm_6f7052d4e83b2cc79908095a784d4e40b50d3e71cf1c22dc213a53732cfeecf7",
+      "userId": "usr-admin-1",
+      "createdAt": "2026-09-23T08:53:45.163Z",
+      "expiresAt": "2026-10-23T08:53:45.163Z"
+    },
+    {
+      "token": "ilm_aedb3fb867edddf5baa56ec5a13a079476eb41dc60c02b483ceb2ce76060ee30",
+      "userId": "usr-admin-1",
+      "createdAt": "2026-09-23T08:53:48.820Z",
+      "expiresAt": "2026-10-23T08:53:48.820Z"
+    },
+    {
+      "token": "ilm_87f85f898b0a0b299f2645895f2894d8fc4d1e53e057d985785126c55de56368",
+      "userId": "usr-1790153628876-2b00ee",
+      "createdAt": "2026-09-23T08:53:48.924Z",
+      "expiresAt": "2026-10-23T08:53:48.924Z"
+    }
+  ],
+  "adminSecurityCode": "123"
+}
